@@ -100,27 +100,3 @@ h2{
 .text-link:hover{
   color: #00ff00;
 }
-/* .animate-wrapper{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  background-color: rgb(80, 78, 78);
-  width: 100%;
-  height: 100%;
-}
-.animated-text {
-  color: white;
-  font-size: 5em;
-  animation: slideIn 2s ease-in-out;
-}
-@keyframes slideIn {
-  0% {
-      transform: translateX(-100%);
-      opacity: 0;
-  }
-  100% {
-      transform: translateX(0);
-      opacity: 1;
-  }
-} */
