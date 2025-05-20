@@ -2,7 +2,20 @@
     line-height: 30px;
 }
 .photo{
-    height: 100%;
-
-    
+    height: 100%;   
+}
+.section{
+    max-height: 450px;
+}
+@media screen and (max-width: 1450px) {
+    .section{
+        max-height: 600px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+    }
 }

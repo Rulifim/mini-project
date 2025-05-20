@@ -1,14 +1,21 @@
 
-
+body{
+    padding-right: 0px;
+}
 .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 900px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 .left-section {
     width: 400px;
-    padding-right: 20px;
 }
 
 .right-section {
@@ -17,7 +24,7 @@
 }
 
 h2 {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -33,27 +40,27 @@ h2 {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #000000;
     transform: translateY(-50%);
 }
 
 .item span {
     position: relative;
-    z-index: 1;
+
     padding: 0 10px;
-    background-color: #000;
+    background-color: #ffffff;
 }
 
 .front-end span {
-    color: #00ff00;
+    color: #000000;
 }
 
 .back-end span {
-    color: #ff00ff;
+    color: #000000;
 }
 
 .devops span {
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -63,17 +70,18 @@ h2 {
 }
 
 .card {
-    background-color: #111;
+    background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border: 4px dashed #000000;
+    border-radius: 40px;
 }
 
 .card h3 {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .card p {
-    color: #fff;
+    color: #000000;
 }
